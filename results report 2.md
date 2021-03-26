@@ -155,20 +155,21 @@ Performance counter stats for './benchmark_bithacked-striped.out bithacked-strip
          8,242,089      page-faults:u                                               
 
       39.145724669 seconds time elapsed
-Performance counter stats for './benchmark_simd-alpern.out simd-alpern':
+ Performance counter stats for './benchmark_simd-alpern.out simd-alpern':
 
-    16,200,264,423      cycles:u                                                      (55.37%)
-    47,460,077,724      instructions:u            #    2.93  insn per cycle           (66.53%)
-     2,393,833,209      L1-dcache-stores                                              (66.54%)
-     1,629,328,675      L1-dcache-load-misses                                         (66.65%)
-        13,000,964      LLC-load-misses                                               (66.75%)
-       658,373,836      cache-misses:u            #   58.365 % of all cache refs      (66.85%)
-     1,128,018,995      cache-references:u                                            (44.51%)
-     2,497,780,829      branches:u                                                    (44.41%)
-         1,699,906      branch-misses:u           #    0.07% of all branches          (44.30%)
-            29,840      page-faults:u                                               
+    15,928,218,943      cycles:u                                                      (55.54%)
+    47,507,538,401      instructions:u            #    2.98  insn per cycle           (66.69%)
+     2,392,857,673      L1-dcache-stores                                              (66.69%)
+     1,625,115,018      L1-dcache-load-misses                                         (66.69%)
+        18,593,369      LLC-load-misses                                               (66.69%)
+       652,111,921      cache-misses:u            #   57.130 % of all cache refs      (66.69%)
+     1,141,460,095      cache-references:u                                            (44.42%)
+     2,499,471,966      branches:u                                                    (44.42%)
+         1,658,738      branch-misses:u           #    0.07% of all branches          (44.42%)
+            29,839      page-faults:u                                               
 
-       3.767941674 seconds time elapsed
+       3.714357832 seconds time elapsed
+
  Performance counter stats for './benchmark_parallel-windowed.out parallel-windowed': (2 threads)
 
     15,446,995,182      cycles:u                                                      (55.65%)
@@ -255,18 +256,19 @@ Performance counter stats for './benchmark_multicore-alpern.out multicore-alpern
        2.699937848 seconds time elapsed
  Performance counter stats for './benchmark_multicore-alpern.out multicore-alpern': (1 thread)
 
-    15,718,325,379      cycles:u                                                      (55.49%)
-    45,347,380,510      instructions:u            #    2.89  insn per cycle           (66.68%)
-     1,321,135,528      L1-dcache-stores                                              (66.77%)
-     1,619,922,900      L1-dcache-load-misses                                         (66.77%)
-        19,738,670      LLC-load-misses                                               (66.77%)
-       666,938,692      cache-misses:u            #   57.611 % of all cache refs      (66.77%)
-     1,157,666,772      cache-references:u                                            (44.31%)
-     2,501,361,624      branches:u                                                    (44.31%)
-         1,656,782      branch-misses:u           #    0.07% of all branches          (44.31%)
-            38,063      page-faults:u                                               
+    15,932,277,041      cycles:u                                                      (55.39%)
+    45,450,105,125      instructions:u            #    2.85  insn per cycle           (66.58%)
+     1,323,659,788      L1-dcache-stores                                              (66.68%)
+     1,621,804,146      L1-dcache-load-misses                                         (66.77%)
+        19,357,412      LLC-load-misses                                               (66.77%)
+       691,457,722      cache-misses:u            #   58.745 % of all cache refs      (66.77%)
+     1,177,050,535      cache-references:u                                            (44.39%)
+     2,497,372,992      branches:u                                                    (44.30%)
+         1,643,556      branch-misses:u           #    0.07% of all branches          (44.30%)
+            38,059      page-faults:u                                               
 
-       3.687630509 seconds time elapsed
+       3.723765643 seconds time elapsed
+
 # 17 num_pairs and 6 string_len
  Performance counter stats for './benchmark_base.out base':
 
