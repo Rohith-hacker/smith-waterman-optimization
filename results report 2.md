@@ -522,3 +522,34 @@ Performance counter stats for './benchmark_parallel-windowed.out parallel-window
            401,511      page-faults:u                                               
 
       41.802959436 seconds time elapsed
+
+# 13 num_pairs 10 string_len
+ Performance counter stats for './benchmark_simd-alpern.out simd-alpern': (SSE_S=1)
+
+   125,992,438,949      cycles:u                                                      (55.55%)
+   370,655,072,253      instructions:u            #    2.94  insn per cycle           (66.66%)
+    17,447,593,766      L1-dcache-stores                                              (66.66%)
+    12,965,194,603      L1-dcache-load-misses                                         (66.66%)
+       116,918,094      LLC-load-misses                                               (66.66%)
+     4,643,467,958      cache-misses:u            #   51.309 % of all cache refs      (66.66%)
+     9,050,056,074      cache-references:u                                            (44.45%)
+    17,546,641,510      branches:u                                                    (44.45%)
+         9,006,256      branch-misses:u           #    0.05% of all branches          (44.45%)
+            29,840      page-faults:u                                               
+
+      28.583935466 seconds time elapsed
+ Performance counter stats for './benchmark_multicore-alpern.out multicore-alpern': (1 thread, sse_s=1)
+
+   123,344,638,464      cycles:u                                                      (55.56%)
+   353,815,721,607      instructions:u            #    2.87  insn per cycle           (66.67%)
+     8,874,719,494      L1-dcache-stores                                              (66.67%)
+    12,966,210,742      L1-dcache-load-misses                                         (66.67%)
+       110,503,505      LLC-load-misses                                               (66.67%)
+     4,810,068,867      cache-misses:u            #   51.821 % of all cache refs      (66.67%)
+     9,282,153,175      cache-references:u                                            (44.43%)
+    17,583,717,652      branches:u                                                    (44.44%)
+         9,814,042      branch-misses:u           #    0.06% of all branches          (44.43%)
+            38,061      page-faults:u                                               
+
+      28.018717256 seconds time elapsed
+
