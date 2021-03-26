@@ -553,3 +553,60 @@ Performance counter stats for './benchmark_parallel-windowed.out parallel-window
 
       28.018717256 seconds time elapsed
 
+# Windowed classic
+Performance counter stats for './benchmark_windowed.out windowed': (13 and 6)
+
+       661,860,468      cycles:u                                                      (53.96%)
+     1,313,578,541      instructions:u            #    1.98  insn per cycle           (65.47%)
+       232,689,030      L1-dcache-stores                                              (65.47%)
+        24,273,985      L1-dcache-load-misses                                         (66.37%)
+             7,762      LLC-load-misses                                               (67.33%)
+           352,972      cache-misses:u            #    0.951 % of all cache refs      (68.29%)
+        37,114,425      cache-references:u                                            (45.14%)
+       267,495,368      branches:u                                                    (44.18%)
+           102,573      branch-misses:u           #    0.04% of all branches          (43.22%)
+           268,204      page-faults:u                                               
+
+       0.420610571 seconds time elapsed
+Performance counter stats for './benchmark_windowed.out windowed': (13 and 10)
+
+   137,025,601,833      cycles:u                                                      (55.56%)
+   390,126,527,434      instructions:u            #    2.85  insn per cycle           (66.67%)
+     9,185,186,957      L1-dcache-stores                                              (66.67%)
+       673,267,107      L1-dcache-load-misses                                         (66.67%)
+           927,548      LLC-load-misses                                               (66.67%)
+         5,193,231      cache-misses:u            #    0.419 % of all cache refs      (66.67%)
+     1,238,915,327      cache-references:u                                            (44.44%)
+    28,710,979,981      branches:u                                                    (44.44%)
+       234,498,576      branch-misses:u           #    0.82% of all branches          (44.44%)
+            17,356      page-faults:u                                               
+
+      32.010710159 seconds time elapsed
+ Performance counter stats for './benchmark_windowed.out windowed': (17 and 06)
+
+    10,656,636,709      cycles:u                                                      (55.49%)
+    21,239,294,557      instructions:u            #    1.99  insn per cycle           (66.62%)
+     3,650,652,175      L1-dcache-stores                                              (66.62%)
+       393,736,252      L1-dcache-load-misses                                         (66.64%)
+           202,728      LLC-load-misses                                               (66.70%)
+         7,250,935      cache-misses:u            #    1.480 % of all cache refs      (66.76%)
+       489,889,966      cache-references:u                                            (44.49%)
+     4,515,994,015      branches:u                                                    (44.43%)
+         2,228,803      branch-misses:u           #    0.05% of all branches          (44.37%)
+         4,288,680      page-faults:u                                               
+
+       6.618744535 seconds time elapsed
+ Performance counter stats for './benchmark_windowed.out windowed': (17 and 10)
+
+ 2,186,967,313,130      cycles:u                                                      (55.55%)
+ 6,240,979,497,515      instructions:u            #    2.85  insn per cycle           (66.67%)
+   146,919,137,010      L1-dcache-stores                                              (66.67%)
+    10,793,883,309      L1-dcache-load-misses                                         (66.67%)
+        11,029,919      LLC-load-misses                                               (66.67%)
+        79,611,239      cache-misses:u            #    1.122 % of all cache refs      (66.67%)
+     7,093,110,934      cache-references:u                                            (44.44%)
+   459,294,388,403      branches:u                                                    (44.44%)
+     3,744,616,301      branch-misses:u           #    0.82% of all branches          (44.44%)
+           274,639      page-faults:u                                               
+
+     511.583156497 seconds time elapsed
